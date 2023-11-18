@@ -1,4 +1,4 @@
-const input = Bun.file("./day-1.txt");
+const input = Bun.file("./day01.txt");
 
 await input.text().then((text) => {
   let numbers: number[] = text.split("").map((n) => parseInt(n));
